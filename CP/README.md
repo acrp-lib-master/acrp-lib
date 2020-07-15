@@ -1,6 +1,6 @@
 Instances for the Circle Problem (CP) in AMPL format. 
 
-In the CP, n aircraft are uniformly located on the circumference of a circle and heading towards its centre.
+In the CP, n aircraft are uniformly located on the circumference of a circle and heading towards its centre. All aircraft are assumed to be at the same altitude.
 
 All instances contain the following data (NM stands for Nautical Mile):
 
