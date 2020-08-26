@@ -4,7 +4,7 @@ The ACRP consists of finding minimal deviation trajectories for a set of aircraf
 
 The 2D ACRP can be represented as a nonconvex mixed-integer problem.
 
-![Data and variables 2D ACRP](https://github.com/acrp-lib/acrp-lib/blob/master/table.PNG)
+![Data and variables 2D ACRP](https://github.com/acrp-lib/acrp-lib/blob/master/datavariables.PNG)
 
 ![Nonconvex 2D ACRP](https://github.com/acrp-lib/acrp-lib/blob/master/nonconvex.PNG)
 
