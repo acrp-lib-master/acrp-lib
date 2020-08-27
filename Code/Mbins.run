@@ -166,7 +166,3 @@ for{(i,j) in P}{
 		let phiu[i,j] := c[i,j] + sqrt(c[i,j]**2 - 4*a[i,j]*b[i,j]);
 	}
 }
-
-for{(i,j) in P}{
-	
-}
