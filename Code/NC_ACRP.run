@@ -21,8 +21,8 @@ let wd := 0.5;
 # gamma,phi and bigM values
 include Mbins.run;
 
-problem NC_ARCP;
-solve NC_ARCP;
+problem NC_ACRP;
+solve NC_ACRP;
 
 display q,theta,Obj;
 
