@@ -1,9 +1,9 @@
 Benchmarking data for the ACRP. All problem instances are in AMPL format.
 
-__CP__ contains Circle Problem instances
-__FP__ contains Flow Problem instances
-__GP__ contains Grid Problem instances
-__RCP__ contrains Random Circle Problem instances
+__CP__ contains Circle Problem instances  
+__FP__ contains Flow Problem instances  
+__GP__ contains Grid Problem instances  
+__RCP__ contrains Random Circle Problem instances  
 
 All instances are designed based on a circular structure and aircraft are positioned relative to the circle. All instances contain the following data (NM stands for Nautical Mile):
 
