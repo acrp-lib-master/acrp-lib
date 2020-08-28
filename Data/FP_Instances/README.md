@@ -6,7 +6,7 @@ Illustration of instance FP_5: black dots represent aircraft initial positions.
 
 
 
-FP instances were proposed by Lehouillier et al. (2017). The FP instances of this repository are used by Dias et al. (2020).
+FP instances were proposed by Lehouillier et al. (2017). The FP instances of this repository are used in Dias et al. (2020).
 
 Lehouillier, T., Omer, J., Soumis, F., & Desaulniers, G. (2017). Two decomposition algorithms for solving a minimum weight maximum clique model for the air conflict resolution problem. European Journal of Operational Research, 256(3), 696-712.
 
