@@ -2,9 +2,8 @@ Data for the Flow Problem (FP).
 
 In instance FP_m, two streams of m aircraft each converge to the centre of the circle. The total number of aircraft is n=2*m. The angle of confluence between the two streams is PI/6. In each stream, aircraft are spaced by 15 NM. 
 
-Illustration of instance FP_5: black dots represent aircraft initial positions. 
-
-
+Illustration of instance FP_5. Black dots represent aircraft initial positions. 
+![FP_5](https://github.com/acrp-lib/acrp-lib/blob/master/Data/FP_Instances/FP_5.PNG)
 
 FP instances were proposed by Lehouillier et al. (2017). The FP instances of this repository are used in Dias et al. (2020).
 
