@@ -5,8 +5,8 @@ RCP instances are randomized CP instances where aircraft speeds and headings are
 The archive __RCP_Instances__ contains data for the 2D ACRP.  
 The archives __RCP_FL_Z_Instances__ contains data for the 2D+FL ACRP with a number of Z flight levels (FL). The parameter _nf_ indicates the number of FLs and the parameter _l0_ indicates aircraft initial FL.
 
-Illustration of instance RCP_10_5 for the 2D ACRP.
-![CP_7](https://github.com/acrp-lib/acrp-lib/blob/master/Data/RCP_Instances/RCP_10_5.PNG)
+Illustration of instance RCP_10_5 for the 2D ACRP. Black dots represent aircraft initial positions.
+![RCP_10_5](https://github.com/acrp-lib/acrp-lib/blob/master/Data/RCP_Instances/RCP_10_5.PNG)
 
 RCP instances have been introduced by Vanaret et al. (2012). The RCP instances of this repository have been used by Rey and Hijazi (2017) and Dias et al. (2020). 
 
