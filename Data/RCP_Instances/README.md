@@ -4,3 +4,14 @@ RCP instances are randomized CP instances where aircraft speeds and headings are
 
 The archive __RCP_Instances__ contains data for the 2D ACRP.  
 The archives __RCP_FL_Z_Instances__ contains data for the 2D+FL ACRP with a number of Z flight levels (FL). The parameter _nf_ indicates the number of FLs and the parameter _l0_ indicates aircraft initial FL.
+
+Illustration of instance RCP_10_5 for the 2D ACRP.
+![CP_7](https://github.com/acrp-lib/acrp-lib/blob/master/Data/RCP_Instances/RCP_10_5.PNG)
+
+RCP instances have been introduced by Vanaret et al. (2012). The RCP instances of this repository have been used by Rey and Hijazi (2017) and Dias et al. (2020). 
+
+Vanaret, C., Gianazza, D., Durand, N., & Gotteland, J. B. (2012). Benchmark for conflict resolution. In International Conference on Research in Air Transportation (ICRAT), Berkeley, California (Vol. 22, No. 05, pp. 12-25).
+
+Rey, D., & Hijazi, H. (2017). Complex number formulation and convex relaxations for aircraft conflict resolution. In 2017 IEEE 56th Annual Conference on Decision and Control (CDC) (pp. 88-93). IEEE.
+
+Dias, F. H., Hijazi, H., & Rey, D. (2020). Disjunctive linear separation conditions and mixed-integer formulations for aircraft conflict resolution. arXiv preprint arXiv:1911.12997.
