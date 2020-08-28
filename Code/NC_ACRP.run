@@ -2,27 +2,18 @@ reset;
 
 model NC_ACRP.mod;
 
-option presolve 1;
-option show_stats 1;
-option reset_initial_guesses 0;
-
-problem NC_ACRP: Obj,q,theta,vrx,vry,z,bin11,bin12,cvrx,cvry,
-					bin311,bin312,bin321,bin322,bin331,bin332,bin341,bin342;
+problem NC_ACRP: Obj,q,theta,vrx,vry,z,bin11,bin12,cvrx,cvry,bin311,bin312,bin321,bin322,bin331,bin332,bin341,bin342;
 option solver couenne;
 
-# running CP instances
-
-reset data;
 data ("CP_4.dat");		
 	
 let A := 1..n;
 let wd := 0.5;
 
-# gamma,phi and bigM values
+# pre-processing of variables bounds and coefficients
 include Mbins.run;
 
 problem NC_ACRP;
 solve NC_ACRP;
 
 display q,theta,Obj;
-
