@@ -19,11 +19,6 @@ param y0{i in A} default -radius*sin((i-1)*2*PI/n + PI);
 param xr0{i in A, j in A : i<j} := x0[i]-x0[j];
 param yr0{i in A, j in A : i<j} := y0[i]-y0[j];
 
-param ucc := 1;
-param lcc := min(cos(hmin),cos(hmax));
-param uss := sin(hmax);
-param lss := sin(hmin);
-
 # bounds and coefficients
 param uvrx{(i,j) in P};
 param uvry{(i,j) in P};
@@ -55,6 +50,11 @@ param qmin := 0.94;
 param qmax := 1.03;
 param hmin := -PI/6;
 param hmax := +PI/6;
+
+param ucc := 1;
+param lcc := min(cos(hmin),cos(hmax));
+param uss := sin(hmax);
+param lss := sin(hmin);
 
 # variables
 var q{i in A} >= qmin <= qmax;
