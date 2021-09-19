@@ -8,6 +8,6 @@ The 2D ACRP can be represented as a nonconvex mixed-integer problem.
 
 ![Nonconvex 2D ACRP](https://github.com/acrp-lib/acrp-lib/blob/master/nonconvex.PNG)
 
-A reproducible model of this formulation is available in the __Code__ folder of this repository and details on this formulation can be found at http://arxiv.org/abs/1911.12997
+A reproducible model of this formulation is available in the __Code__ folder of this repository and details on this formulation can be found in the paper https://doi.org/10.1016/j.ejor.2021.03.059
 
-Send your questions and comments about this repository to d.rey@unsw.edu.au
+Send your questions and comments about this repository to david.rey@skema.edu
